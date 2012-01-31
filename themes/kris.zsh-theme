@@ -13,8 +13,8 @@ BB=$fg_bold[blue]
 RESET=$reset_color
 
 
-PROMPT='%{$fg_bold[green]%}%n@%m%b %{$fg[white]%}%2~ %B$(custom_git_prompt)%{$reset_color%}%(!.#.$) '
-
+#PROMPT='%{$fg_bold[green]%}%n@%m%b %{$fg[white]%}%2~ %B$(custom_git_prompt)%{$reset_color%}%(!.#.$) '
+PROMPT='%{$fg_bold[green]%}%m%b [%n] %{$fg[white]%}%2~ %B$(custom_git_prompt)%{$reset_color%}%(!.#.$) '
 
 
 #ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[red]%}‹"
