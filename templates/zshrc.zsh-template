@@ -34,3 +34,8 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+
+# If you use tmux, uncomment these three lines to launch it automatically
+#if [[ -z "$TMUX" ]]; then
+#        tmux att 
+#fi
